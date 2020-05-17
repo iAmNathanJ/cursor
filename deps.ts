@@ -1,1 +1,4 @@
-export { encode, decode } from "https://deno.land/std@v0.36.0/strings/mod.ts";
+export {
+  encode,
+  decode,
+} from "https://deno.land/std@v0.51.0/encoding/utf8.ts";

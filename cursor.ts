@@ -1,6 +1,6 @@
 import { encode } from "./deps.ts";
 
-const isTerminalApp = Deno.env("TERM_PROGRAM") === "Apple_Terminal";
+const isTerminalApp = Deno.env.get("TERM_PROGRAM") === "Apple_Terminal";
 
 const ESC = "\u001B[";
 
@@ -166,5 +166,5 @@ export {
   goDown,
   goLeft,
   goRight,
-  goTo
+  goTo,
 };
