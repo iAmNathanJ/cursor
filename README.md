@@ -1,6 +1,6 @@
 # `cursor`
 
-![deno@v1.0.0](https://github.com/iAmNathanJ/cursor/workflows/deno@v1.0.0/badge.svg)
+![deno@v1.6.3](https://github.com/iAmNathanJ/cursor/workflows/deno@v1.6.3/badge.svg)
 
 ANSI escape sequences to control the cursor in a terminal.
 
