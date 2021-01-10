@@ -15,10 +15,10 @@ jobs:
           git config --global core.autocrlf false
           git config --global core.eol lf
 
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
 
       - name: Setup deno
-        uses: denolib/setup-deno@master
+        uses: denolib/setup-deno@v2
         with:
           deno-version: ${{ matrix.deno }}
 
