@@ -5,7 +5,7 @@
 ANSI escape sequences to control the cursor in a terminal.
 
 ```ts
-import { goHome } from "https://denopkg.com/iamnathanj/cursor@v2.1.0/mod.ts";
+import { goHome } from "https://denopkg.com/iamnathanj/cursor@v2.2.0/mod.ts";
 
 await goHome();
 ```
